@@ -1,0 +1,24 @@
+* {
+    background-color: #222222;
+}
+
+.alert {
+    background-color: #bdffe1;;
+}
+
+.alert h2 {
+    background-color: #bdffe1;
+}
+
+.alert p {
+    background-color: #bdffe1;
+}
+
+footer {
+    color: #888888;
+}
+
+footer a {
+    color: #AAAAAA;
+    font-weight: bold;
+}
