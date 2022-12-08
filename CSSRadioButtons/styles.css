@@ -54,10 +54,21 @@
 
 .container ul li {
 	display: block;
-	height: 100px;
+	/* float: left; */
+	position: relative;
+	height: 50px;
 	font-weight: 300;
-	font-size: 1.35em;
+	font-size: 1.5rem;
+	margin: 10px auto;
+	padding: 25px 25px 25px 80px;
+	border-bottom: 1px solid #333;
+	/* background-color: brown; */
 }
+
+/* .container ul li input[type="radio"] {
+	position: absolute;
+	visibility: hidden;
+} */
 
 footer {
     color: #888888;
