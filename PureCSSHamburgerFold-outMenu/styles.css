@@ -1,4 +1,35 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
     overflow-x: hidden;
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: 0; padding: 0;
+    outline: none; border: none;
+    text-transform: capitalize;     /* Transforms the first character of each word to uppercase */
+}
+
+body {
+    background-color: #232323;
+}
+
+nav {
+    overflow: hidden;
+    background-color: #ededed;
+    position: relative;
+}
+
+nav #menu {
+    display: none;
+}
+
+nav a {
+    color: #232323;
+    padding: 10px 0;
+    font-size: 1.3rem;
+    display: block;
+}
+
+nav a.hamburgerIcon {
+    color: #cdcdcd;
+    background-color: #232323;
 }
