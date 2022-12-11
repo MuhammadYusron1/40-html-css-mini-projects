@@ -17,12 +17,12 @@ body {
 
 nav {
     overflow: hidden;
-    background-color: #ededed;
     position: relative;
 }
 
 nav #menu {
     display: none;
+    background-color: #ededed;
 }
 
 nav a {
@@ -32,7 +32,12 @@ nav a {
     display: block;
 }
 
+nav a:hover {
+    color: tomato;
+}
+
 nav a.hamburgerIcon {
     color: #cdcdcd;
     background-color: #232323;
+    display: inline-block;
 }
