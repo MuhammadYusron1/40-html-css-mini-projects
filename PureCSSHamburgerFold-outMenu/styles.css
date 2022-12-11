@@ -1,0 +1,43 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: 0; padding: 0;
+    outline: none; border: none;
+    text-transform: capitalize;     /* Transforms the first character of each word to uppercase */
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #232323;
+}
+
+nav {
+    overflow: hidden;
+    position: relative;
+}
+
+nav #menu {
+    display: none;
+    background-color: #ededed;
+}
+
+nav a {
+    color: #232323;
+    padding: 10px 0;
+    font-size: 1.3rem;
+    display: block;
+}
+
+nav a:hover {
+    color: tomato;
+}
+
+nav a.hamburgerIcon {
+    color: #cdcdcd;
+    background-color: #232323;
+    display: inline-block;
+}
